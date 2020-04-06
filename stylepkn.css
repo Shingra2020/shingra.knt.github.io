@@ -1,0 +1,121 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+.str {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(249, 255, 238);
+}
+.str a {
+    letter-spacing: 1.8px;
+    font-size: 20px;
+    transition: ease-in .25s all;
+}
+#kn {
+    background-color:  rgb(251, 252, 223);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.shr {
+    display: flex;
+    justify-content: flex-end;
+}
+.str a:hover{
+    background-color: rgb(251, 252, 223);
+    letter-spacing: 2.8px;
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 252, 223);
+}
+.a img {
+    width: 180px;
+    cursor: pointer;
+}
+.a h1 {
+    padding-left: 100px;
+}
+.osn {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.a1 {
+    
+    border: 1px solid #fff;
+    height: 650px;
+    width: 220px;
+    background-color: rgb(234, 240, 206);
+}
+.a1 h3 {
+    font-size: 17px;
+    border: 1px solid rgb(206, 240, 214);
+    transition: ease-in .25s all;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    background-color: rgb(206, 240, 214);
+    
+}
+.a1 h3:hover{
+    border: 1px solid rgb(159, 233, 178);
+    background-color: rgb(159, 233, 178);
+    letter-spacing: 1.8px;
+}
+
+.a2 {
+    
+    border: 1px solid #fff;
+    height: 650px;
+    width: 210px;
+    background-color: rgb(240, 216, 206);
+}
+.a2 h3 {
+    font-size: 17px;
+    border: 1px solid rgb(206, 240, 214);
+    transition: ease-in .25s all;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    background-color: rgb(206, 240, 214);
+    
+}
+.a2 h3:hover{
+    color: red;
+    letter-spacing: 1.8px;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    transition: ease-in .25s all;
+}
+.me a{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: ease-in .25s all;
+}
+.me a:hover{
+    background-color: rgb(10, 49, 20);
+    color: whitesmoke;
+    letter-spacing: 1.8px;
+}
