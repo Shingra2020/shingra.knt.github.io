@@ -45,7 +45,8 @@
     background-color: rgb(251, 252, 223);
 }
 .a img {
-    width: 180px;
+    width: 200px;
+    height: 230px;
     cursor: pointer;
 }
 .a h1 {
